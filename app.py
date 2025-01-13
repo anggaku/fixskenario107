@@ -4,6 +4,10 @@ import numpy as np
 from joblib import load
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.preprocessing import LabelEncoder
+import xgboost as xgb
+from sklearn.linear_model import Ridge
+from sklearn.ensemble import RandomForestRegressor, VotingRegressor
+
 
 # Judul aplikasi
 st.title("Prediksi RAB dengan Voting Regressor")
