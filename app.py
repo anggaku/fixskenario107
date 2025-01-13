@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from joblib import load
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import LabelEncoder
 
 # Judul aplikasi
 st.title("Prediksi RAB dengan Voting Regressor")
