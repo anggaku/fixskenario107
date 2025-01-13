@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestRegressor, VotingRegressor
 
 
 # Judul aplikasi
-st.title("Prediksi RAB dengan Voting Regressor")
+st.title("Prediksi RAB dengan Voting Regressor 107 Row")
 # Judul aplikasi
 st.text("R2 Score: 0.882, Train 80%, Testing 20%")
 st.text("Ensemble Voting Regressor: XGBoost, Ridge Regression, dan Random Forest")
